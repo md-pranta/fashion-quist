@@ -1,0 +1,199 @@
+body {
+  /* max-widths: 1450px !important; */
+  margin: 0 auto !important;
+  height: auto !important;
+}
+
+.navbar {
+  background-color: #1a187a;
+}
+.logo-img {
+  width: 150px;
+  height: 40px;
+}
+
+.carosel-banner {
+  width: 100% !important;
+  height: 60vh !important;
+}
+
+.carousel-item {
+  background-image: url("./image/banner-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 70vh !important;
+  width: 100%;
+}
+
+.h-50 {
+  height: 85vh !important;
+  width: 50% !important;
+}
+.banner-title {
+  font-size: 85px !important;
+}
+
+.borders {
+  border: 8px solid red;
+}
+
+/* ---------- apple store box ---- */
+.apple-store-box {
+  width: 100%;
+  height: 80vh !important;
+  margin-top: 50px !important;
+}
+.row-bg-pod {
+  background-image: url("./image/air-pod.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* height: 30vh !important; */
+}
+.row-bg {
+  background-color: #adc2d7 !important;
+}
+
+.white-gigir-bg {
+  background-color: #e7e7e7;
+}
+
+.category-section {
+}
+
+@media (max-width: 700px) {
+  .carosel-banner {
+    height: 120vh !important;
+  }
+  .carousel-item {
+    height: 120vh !important;
+    background-color: #1a187a !important;
+  }
+  .banner-title {
+    font-size: 30px !important;
+  }
+  .category-section {
+    width: 100% !important;
+    height: auto !important;
+    margin-top: 300px;
+  }
+}
+
+.active-border {
+  border-bottom: 1px solid black;
+}
+
+/* ------ product card ----- */
+.buy-now-button {
+  color: #fff;
+  background-color: black !important;
+}
+
+/* hgfuervguieg */
+ul {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+.header {
+  background: #1a187a;
+  padding: auto;
+}
+.header .navbar-brand {
+  color: white;
+  font-weight: 600;
+  font-size: 26px;
+}
+.header .nav-item a {
+  color: #5f5da2;
+  font-weight: 600;
+}
+.header .nav-item .active {
+  color: white;
+}
+.header .nav-item i {
+  color: white;
+}
+.header .navbar-toggler {
+  background-color: white;
+}
+
+/* ======= Slider area CSS====== */
+.slider {
+  background-image: url("../images/sliderbg.png");
+  background-size: cover;
+  max-height: 500px;
+  overflow: hidden;
+}
+.slider .carousel-inner {
+  padding: 0 120px;
+}
+.slider .carousel-item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 30px;
+  position: relative;
+}
+
+.slider .carousel-item-container h4 {
+  color: #1e046a;
+  font-size: 25px;
+}
+.slider .carousel-item-container h1 {
+  color: #000000;
+  font-size: 96px;
+  line-height: 72px;
+}
+.slider .carousel-item-container .btn {
+  background-color: #171495;
+}
+.slider .carousel-item-container img {
+  width: auto;
+}
+
+/* Category area css */
+.category ul li {
+  color: #8b8b8b;
+  font-size: 18px;
+}
+.category ul li.active {
+  color: #000000;
+  text-decoration: underline;
+  text-underline-offset: #000000;
+}
+.category .card {
+  background-color: #f6f6f6;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.category .card span {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 26px;
+  font-weight: 600;
+  color: #909090;
+}
+.last-part {
+  background-color: rgb(149, 138, 212);
+  height: 357px;
+}
+/* footer area start */
+.footer {
+  background-color: #0e071b;
+  padding: 50px 0;
+}
+.footer .logo {
+  color: white;
+  font-size: 26px;
+  font-weight: 600;
+}
+.footer .list1 ul li {
+  color: CFCFCF;
+}
